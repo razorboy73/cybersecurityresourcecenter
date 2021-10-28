@@ -1,0 +1,81 @@
+
+
+
+
+
+<div class="faq">
+
+            {% for block in section.blocks%}
+
+
+                {% if block.type =="QA"%}
+
+                    <div class="question">
+                        <input type="checkbox" id="question-{{forloop.index}}" class="question-toggle">
+                        <label for="question-{{forloop.index}}" class="question-label">{{block.settings.title}}</label>
+                        <div class="answer">
+                            {{block.settings.answer}}
+                        </div>
+                    </div>
+
+                {%elsif block.type =="faqHeadline"%}
+
+                    <h4>{{block.settings.title}}</h4>
+
+                    {% endif %}
+
+            {% endfor%}
+
+        </div>
+{% schema %}
+    {
+        "name": "Customer Questions", 
+        "settings":
+        [
+            {
+                "type" : "text",
+                "label" : "Heading for FAQ section",
+                "id" : "heading"
+            }
+            
+        ],
+        "blocks":[
+            {
+                "type":"QA",
+                "name":"Questions and Answers",
+                "settings":[
+                    {
+                        "type":"text",
+                        "label":"Customer Question",
+                        "id":"title"
+                    },
+                    {
+                        "type":"richtext",
+                        "label":"Answer",
+                        "id":"answer"
+                    }
+                ]
+            },
+            {
+                "type":"faqHeadline",
+                "name":"FAQ Section Headline",
+                "settings":[
+                    {
+                    "type":"text",
+                    "label":"Heading for individual FAQ section",
+                    "id":"title"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
+{% comment %} schema "name" appears in the sidebar as the name of the section 
+In the settings array are additional objects that represent individual settings for inputs
+Type - describes the type of input
+label - the heading of the input
+id - used as a reference name in mark up
+
+for additional parts of this section, add another setting object
+{% endcomment %}
+     

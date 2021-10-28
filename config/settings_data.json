@@ -1,0 +1,977 @@
+{
+  "current": {
+    "color_button": "#5a438d",
+    "color_text_field_border": "#5a438d",
+    "share_facebook": true,
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "favicon": "shopify:\/\/shop_images\/Cybersecurity_Resource_Center_Icon_331bedda-3091-48d3-b11a-f6a12ffccb74.png",
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Cybersecurity_Resource_Center_Logo.png",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#5a438d",
+    "checkout_button_color": "#5a438d",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Cybersecurity_Resource_Center_Logo.png",
+          "logo_max_width": 200,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "Grand Opening!!!",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "c38b1e32-8030-401f-adac-5b5f1adcc1cc": {
+            "type": "link_list",
+            "settings": {
+              "title": "Rules & Policies",
+              "menu": "footer"
+            }
+          },
+          "35db2efc-2598-4423-95ab-d75db6e9b881": {
+            "type": "text",
+            "settings": {
+              "title": "Contact",
+              "text": "<p>5 Olive Avenue<\/p><p>Toronto, Ontario<\/p><p>M6G 1T7<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "c38b1e32-8030-401f-adac-5b5f1adcc1cc",
+          "35db2efc-2598-4423-95ab-d75db6e9b881"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": true,
+          "enable_payment_button": true,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": true
+        }
+      },
+      "1634414499b6bb0a11": {
+        "type": "slideshow",
+        "blocks": {
+          "1634414499b6bb0a11-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cybersecurity-Resource-Center-slider1.png",
+              "alignment": "center center",
+              "slide_title": "Cybersecurity Made Simple",
+              "subheading": "Learn How To Protect Your Organization",
+              "button_label": "Improve Your Security Now",
+              "button_link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "1634414499b6bb0a11-0"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "16344723363c55c6fa": {
+        "type": "collection",
+        "settings": {
+          "title": "Protect Your Website!",
+          "collection": "platform-security",
+          "grid": 2,
+          "rows": 2,
+          "show_vendor": true,
+          "show_view_all": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "1634474502f3a90eb0": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Blog posts",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
+        }
+      },
+      "1634474685e8e0a185": {
+        "type": "quotes",
+        "blocks": {
+          "1634474685e8e0a185-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>The Cybersecurity Resource Center's unbiased approach to product reviews makes my job as an IT professional that much easier<\/p>",
+              "author": "Frank S, Amazon"
+            }
+          },
+          "1634474685e8e0a185-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Helped me pick the right VPN for our new office.<\/p>",
+              "author": "Susan, Easy Designs"
+            }
+          },
+          "1634474685e8e0a185-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>The way they drill down on products, it lets me know the potential costs and benefits before I spend my money on a product.<\/p>",
+              "author": "Amanda Q, RBC"
+            }
+          }
+        },
+        "block_order": [
+          "1634474685e8e0a185-0",
+          "1634474685e8e0a185-1",
+          "1634474685e8e0a185-2"
+        ],
+        "settings": {
+          "title": "Testimonials"
+        }
+      },
+      "1634474688bb5a64fa": {
+        "type": "collection-list",
+        "blocks": {
+          "1634474688bb5a64fa-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "enterprise-cyber-security-software"
+            }
+          },
+          "1634474688bb5a64fa-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "firewalls"
+            }
+          },
+          "1634474688bb5a64fa-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "platform-security"
+            }
+          }
+        },
+        "block_order": [
+          "1634474688bb5a64fa-0",
+          "1634474688bb5a64fa-1",
+          "1634474688bb5a64fa-2"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "grid": 3
+        }
+      },
+      "16346420123ccd1194": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/cybersecurity-resource-center-basics.jpg",
+          "layout": "left",
+          "title": "Cybersecurity Basics",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "Read More",
+          "button_link": "shopify:\/\/blogs\/news\/cybersecurity-basics"
+        }
+      },
+      "1634642027c52f31bf": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/cybersecurity-resource-center-intrusion-detection.jpg",
+          "layout": "right",
+          "title": "What is an Intrusion Detection System",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "Read More",
+          "button_link": "shopify:\/\/blogs\/news\/what-is-an-intrusion-detection-system"
+        }
+      },
+      "1634642049c7d0c39a": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/cybersecurity-resource-center-anti-virus.jpg",
+          "layout": "left",
+          "title": "How Does Anti Virus Software Work",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "Read More",
+          "button_link": "shopify:\/\/blogs\/news\/how-does-anti-virus-software-work"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "493b1d05-5044-4283-b41b-20eb5f47f965": {
+            "type": "collection",
+            "settings": {
+              "collection": "anti-virus-software"
+            }
+          },
+          "6aa4e40d-4a4d-4225-8823-50f6cbeae15f": {
+            "type": "collection",
+            "settings": {
+              "collection": "endpoint-security"
+            }
+          },
+          "bc3ff671-7fb6-4eba-8924-c9f5b4cef7e4": {
+            "type": "collection",
+            "settings": {
+              "collection": "firewalls"
+            }
+          },
+          "b890f1c9-8f35-4778-947d-3bc56c3f3a2d": {
+            "type": "collection",
+            "settings": {
+              "collection": "password-managers"
+            }
+          },
+          "3c680d18-f61a-45fb-b1f3-8fbebab2c11c": {
+            "type": "collection",
+            "settings": {
+              "collection": "platform-security"
+            }
+          },
+          "64f9b733-4ece-40b3-8077-3858854dd6ed": {
+            "type": "collection",
+            "settings": {
+              "collection": "enterprise-cyber-security-software"
+            }
+          }
+        },
+        "block_order": [
+          "493b1d05-5044-4283-b41b-20eb5f47f965",
+          "6aa4e40d-4a4d-4225-8823-50f6cbeae15f",
+          "bc3ff671-7fb6-4eba-8924-c9f5b4cef7e4",
+          "b890f1c9-8f35-4778-947d-3bc56c3f3a2d",
+          "3c680d18-f61a-45fb-b1f3-8fbebab2c11c",
+          "64f9b733-4ece-40b3-8077-3858854dd6ed"
+        ],
+        "settings": {
+          "display_type": "selected",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "1634648819d11d9e5b": {
+        "type": "image-bar",
+        "blocks": {
+          "1634648819d11d9e5b-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cybersecurity-resource-center-anti-virus.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1634648819d11d9e5b-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cybersecurity-resource-center-intrusion-detection.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1634648819d11d9e5b-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cybersecurity-resource-center-aboutus1.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1634648819d11d9e5b-0",
+          "1634648819d11d9e5b-1",
+          "1634648819d11d9e5b-2"
+        ],
+        "settings": {
+          "heading": "Cybersecurity Instagram",
+          "section_height": "small"
+        }
+      },
+      "1634652704b252f9ec": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Instagram",
+          "text": "",
+          "text_size": "medium"
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "7a93e377-3915-4dfd-9894-26b9ec13981c": {
+            "type": "faqHeadline",
+            "settings": {
+              "title": "Shipping Questions"
+            }
+          },
+          "271e1c5c-24f2-4786-81af-ce1977dba43b": {
+            "type": "QA",
+            "settings": {
+              "title": "How are products delivered",
+              "answer": "<p>Products are delivered digitally by the vendor<\/p>"
+            }
+          },
+          "27690b47-33f5-43f1-9aa8-66bf46b9615b": {
+            "type": "faqHeadline",
+            "settings": {
+              "title": "Corporate Questions"
+            }
+          },
+          "e6581166-f3c6-4220-bc33-c85700c89237": {
+            "type": "QA",
+            "settings": {
+              "title": "Where are you located?",
+              "answer": "<p>Wouldnt you like to know!<\/p>"
+            }
+          },
+          "a9cd6198-4401-459d-9acb-b97562933c0a": {
+            "type": "QA",
+            "settings": {
+              "title": "Have you used all of your products?",
+              "answer": "<p>We have personally tested all the products we list and review<\/p>"
+            }
+          },
+          "3082f7ab-19ea-4364-aa6a-0f04251ace5f": {
+            "type": "faqHeadline",
+            "settings": {
+              "title": "Payment\/Refund Questions"
+            }
+          },
+          "94bd2089-0e71-4feb-83ed-ae9ce3da1a51": {
+            "type": "QA",
+            "settings": {
+              "title": "How are refunds handled?",
+              "answer": "<p>Please contact the merchant directly<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "7a93e377-3915-4dfd-9894-26b9ec13981c",
+          "271e1c5c-24f2-4786-81af-ce1977dba43b",
+          "27690b47-33f5-43f1-9aa8-66bf46b9615b",
+          "e6581166-f3c6-4220-bc33-c85700c89237",
+          "a9cd6198-4401-459d-9acb-b97562933c0a",
+          "3082f7ab-19ea-4364-aa6a-0f04251ace5f",
+          "94bd2089-0e71-4feb-83ed-ae9ce3da1a51"
+        ],
+        "settings": {
+          "heading": "Your Questions Answered"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "isOrdernumberEnabled": true
+        }
+      },
+      "contact-listbusiness": {
+        "type": "contact-listbusiness",
+        "settings": {
+          "businessTypes": "VPN, Firewalls, Platform Security"
+        }
+      }
+    },
+    "content_for_index": [
+      "1634414499b6bb0a11",
+      "16344723363c55c6fa",
+      "16346420123ccd1194",
+      "1634642027c52f31bf",
+      "1634642049c7d0c39a",
+      "1634474502f3a90eb0",
+      "1634474685e8e0a185",
+      "1634474688bb5a64fa",
+      "1634652704b252f9ec",
+      "1634648819d11d9e5b"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
