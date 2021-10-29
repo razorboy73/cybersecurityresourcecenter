@@ -436,7 +436,9 @@
     "router_specifications": {
       "transfer_rates": "Transfer Rates",
       "wireless_standards": "Wireless Standards",
-      "operating_systems": "Operating Systems"
+      "operating_systems": "Operating Systems",
+      "voltage": "Voltage",
+      "frequency": "Frequency"
     }
   }
 }
