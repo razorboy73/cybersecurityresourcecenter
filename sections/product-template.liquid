@@ -4,6 +4,9 @@
    
     {% assign affiliateLink = tag| remove: "affiliateLink_" %}
 
+    {% elsif tag contains "Download"%}
+   
+    {% assign downloadProduct = true %}
 
   {% endif%}
 
@@ -304,9 +307,11 @@
               <div class="tab tab-active">
                   Description
               </div>
+              {% if downloadProduct != true %}
               <div class="tab">
-                  Details
+                  Specifications
               </div>
+            {% endif %}
               <div class="tab">
                   Shipping
               </div>
@@ -318,17 +323,28 @@
                    
                   </div>
               </div>
-              <div id="Details" class="content-body">
-                  <h4>if we have product details</h4>
-  
-                      Package Dimensions  -> 6.06 x 6.02 x 4.75 inches
-                      Voltage -> 120 V
-                      Frequency -> 60 Hz
-                      Wattage -> 5w
-                  
-              </div>
+              {% if downloadProduct != true %}
+                
+                <div id="Specifications" class="content-body">
+                   <table>
+                    <tr><td>Data Transfer Rates</td><td> {{product.metafields.specifications.datatransferrates }}</td></tr>
+                    <tr><td>Wireless Standard</td><td> {{product.metafields.specifications.wirelessStandard}}</td></tr>
+                    <tr><td>Operating System</td><td> {{product.metafields.specifications.operatingSystem}}</td></tr>
+    
+                   </table>
+                </div>
+              {% endif %}
               <div id="Shipping" class="content-body">
-                  <p>Your order will be shipped the same, or next, business day. During sale events and holidays, there may be a slightly longer duration</p>
+
+              {% if affiliateLinkPresent %}
+                <p>The product supplier handles delivery of this product as indicated on their website</p>
+              {% elsif downloadProduct %}
+              <p>You can download your product after purchase</p>
+              {% else %}
+              <p>Your order will be shipped the same, or next, business day. During sale events and holidays, there may be a slightly longer duration</p>
+                 
+              {% endif  %}
+             
               </div>
           </div>
       </div>
